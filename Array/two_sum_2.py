@@ -1,3 +1,5 @@
+# array | two-pointers | binary-search
+# amazon
 class Solution:
     def twoSum(self, numbers, target):
         l=0
