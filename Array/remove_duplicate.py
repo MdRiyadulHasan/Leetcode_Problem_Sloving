@@ -1,3 +1,5 @@
+# array | two-pointers
+# bloomberg | facebook | microsoft
 class Solution:
     def removeDuplicates(self,nums):
         l=1
