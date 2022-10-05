@@ -1,5 +1,5 @@
 class Solution:
-    def twoSum(self, numbers: list[int], target: int) -> list[int]:
+    def twoSum(self, numbers, target):
         l=0
         r=len(numbers)-1
         while(l<r):
@@ -10,3 +10,9 @@ class Solution:
                 l=l+1
             else:
                 r=r-1
+if __name__ == '__main__':
+    s=Solution()
+    target=int(input())
+    nums=list(map(int,input().strip().split()))
+    result= s.twoSum(nums,target)
+    print(result)
