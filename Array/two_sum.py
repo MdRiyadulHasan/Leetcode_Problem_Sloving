@@ -1,3 +1,5 @@
+# array | hash-table
+# adobe | airbnb | amazon | apple | bloomberg | dropbox | facebook | linkedin | microsoft | uber | yahoo | yelp
 class Solution:
     def twoSum(self, nums, target):
         hash_map={}
