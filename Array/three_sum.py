@@ -1,3 +1,5 @@
+# array | two-pointers
+# adobe | amazon | bloomberg | facebook | microsoft
 class Solution:
     def threeSum(self, nums):
         nums.sort()
