@@ -1,3 +1,5 @@
+# hash-table | bit-manipulation
+# google
 class Solution:
     def findTheDifference(self, s: str, t: str) -> str:
         result=0
