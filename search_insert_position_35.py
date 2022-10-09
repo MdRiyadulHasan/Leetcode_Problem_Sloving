@@ -1,3 +1,5 @@
+#array | binary-search
+
 class Solution:
     def searchInsert(self, nums, target):
         l=0
