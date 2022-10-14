@@ -1,3 +1,5 @@
+# array | two-pointers
+# bloomberg | facebook | microsoft
 class Solution:
     def merge(self, nums1, m: int, nums2, n: int) -> None:
         """
