@@ -1,3 +1,5 @@
+# two-pointers | string
+# facebook | microsoft | uber | zenefits
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         l=0
