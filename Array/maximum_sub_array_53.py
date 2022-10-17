@@ -1,3 +1,5 @@
+# array | divide-and-conquer | dynamic-programming
+# bloomberg | linkedin | microsoft
 class Solution:
     def maxSubArray(self, nums) -> int:
         maxsub_ar=nums[0]
