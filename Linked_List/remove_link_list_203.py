@@ -1,15 +1,15 @@
-
-# class ListNode:
-#     def __init__(self, val=0, next=None):
-#         self.val = val
-#         self.next = next
+# linked-list
+class ListNode:
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
 class Solution:
     def removeElements(self, head, val: int):
         prev=None
         cur=head
         while cur:
             if cur.val==val:
-                if prev:
+                if prev: # middle and last
                     prev.next=cur.next
                 else:
                     head=cur.next
