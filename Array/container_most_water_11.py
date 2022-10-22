@@ -1,3 +1,5 @@
+# array | two-pointers
+# bloomberg
 class Solution:
     def maxArea(self, height) -> int:
         l,r=0,len(height)-1
