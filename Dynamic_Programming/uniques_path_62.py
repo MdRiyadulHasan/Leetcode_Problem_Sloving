@@ -1,3 +1,5 @@
+# array | dynamic-programming
+# bloomberg
 def uniquePaths(m: int, n: int) -> int:
     row = [1]*n
     for i in range(m-1):
