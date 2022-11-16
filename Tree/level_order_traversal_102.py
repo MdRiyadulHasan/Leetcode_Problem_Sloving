@@ -1,3 +1,5 @@
+# tree | breadth-first-search
+# amazon | apple | bloomberg | facebook | linkedin | microsoft
 from collections import deque
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
@@ -9,6 +11,7 @@ class Solution:
         if root is None:
             return root
         q=deque()
+
         q.append(root)
         res = []
         while len(q)>0:
